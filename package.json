@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "testing": "node --experimental-vm-modules node_modules/.bin/jest --watch",
     "start": "node dist/index.js"
   },
   "keywords": [],
